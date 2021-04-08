@@ -14,7 +14,8 @@ On any command line, change your directory to that of the classifier and:
 The predicted output of your CSV should now have been printed out to the command terminal, -1 indicates remodelling, 0 indicated mixed/uncertainty and 1 indicates inactive cell junction.
 
 ![image](https://user-images.githubusercontent.com/47504863/114082107-46377f00-98a5-11eb-8552-45feb98ebda5.png)
- (Figure 16)
+
+(Figure 16)
  
 System administrator guide
 This guide is for the system administrator looking to train the classifiers on their own supervised input. This guide assumes that this user is familiar with the patcher.
@@ -25,9 +26,15 @@ Open the classifier of your choice and input the csv filename into the ‘trainA
 Uncomment the ‘loadModel()’, ‘trainAndTestModel()’ and ‘saveModel()’ methods and comment out the ‘predict()’ method, so it looks the same as in figure 18.
 Run the python script using the same instructions from step 5 of the Basic User Guide above.
 Instructions on how to run unit tests are provided in comments in the classifier python files.
+
 ![image](https://user-images.githubusercontent.com/47504863/114085077-cd3a2680-98a8-11eb-848e-b1ee1d2cfe57.png)
+
 (Figure 17)
+
 ![image](https://user-images.githubusercontent.com/47504863/114085120-d88d5200-98a8-11eb-9817-942745fed962.png)
+
 (Figure 18)
+
 ![image](https://user-images.githubusercontent.com/47504863/114085187-f064d600-98a8-11eb-89b7-582fd55d61ed.png)
+
 (Figure 19)
