@@ -1,4 +1,8 @@
 # JunctionalClassifier
+This repository contains python code and CSVs that serve the purpose of classifying features extracted from images of mice retina blood vessels, this was done as part of a Project/Investigation based on automated methods of classification.
+
+
+
 This Repo contains CSV files, the name of the numbered CSVs correspond to how many features are in the CSV, therefore for optimal training purposes please use the 14k.csv file when running your one time training session.
 
 Basic user guide
