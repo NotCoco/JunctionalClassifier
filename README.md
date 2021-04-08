@@ -17,7 +17,9 @@ If this is your first time running the program, The classifier must be trained a
 STEP 6: On any command line, change your directory to that of the classifier and:
 
 ------If you’re a windows user type: python -m svm.py
+
 ------If you’re a linux or mac user type: python svm.py
+
 ------These commands will run the SVM classifier, if you wish to use the ANN or KNN scripts simply replace ‘svm’ with ‘ann’ or ‘knn’ respectively.
 
 The predicted output of your CSV should now have been printed out to the command terminal, -1 indicates remodelling, 0 indicated mixed/uncertainty and 1 indicates inactive cell junction.
