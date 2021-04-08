@@ -1,4 +1,6 @@
 # JunctionalClassifier
+This Repo contains CSV files, the name of the numbered CSVs correspond to how many features are in the CSV, therefore for optimal training purposes please use the 14k.csv file when running your one time training session.
+
 Basic user guide
 This guide is for the basic user looking to use the classifier for predictions/querying their input CSV.
 
